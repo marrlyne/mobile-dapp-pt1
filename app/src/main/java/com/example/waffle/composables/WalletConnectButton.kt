@@ -24,6 +24,7 @@ fun WalletConnectButton(
 ) {
     val viewState = waffleViewModel.viewState.collectAsState().value
 
+    
     Column(modifier = modifier) {
         Button(
             modifier = modifier,
