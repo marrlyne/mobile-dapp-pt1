@@ -26,6 +26,7 @@ data class WalletViewState(
     val noWallet: Boolean = false
 )
 
+
 @HiltViewModel
 class WaffleViewModel @Inject constructor(
     private val walletAdapter: MobileWalletAdapter,
